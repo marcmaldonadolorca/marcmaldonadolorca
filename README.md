@@ -11,7 +11,7 @@
 
 </div>
 
-4 years of banking analytics consulting (CaixaBank, VidaCaixa) at **SDG Group** · **MSc in Deep Learning** (UPM) · Google Cloud Certified **Professional Data Engineer**.
+4 years of banking analytics consulting (CaixaBank, VidaCaixa) at **SDG Group** · **MSc in Deep Learning** (UPM, thesis submitted Sep 2026) · Google Cloud Certified **Professional Data Engineer**.
 
 Most data profiles show notebooks. **I show systems running:** while you read this, a Raspberry Pi I run is capturing a live order book every 2 seconds — **100+ GB** so far — feeding the PyTorch models of my MSc thesis, trained on my own GPU.
 
@@ -21,7 +21,7 @@ Most data profiles show notebooks. **I show systems running:** while you read th
 |---|---|---|
 | [Market microstructure · MSc thesis](https://github.com/marcmaldonadolorca/polymarket-btc-microstructure) | 24/7 order-book capture + sequence models, time-stamped pre-registration | **100+ GB** · out-of-sample validated |
 | [ECG arrhythmia · MLOps](https://github.com/marcmaldonadolorca/ecg-heartbeat-mlops) | 1D CNN, notebook → dockerized API + CI + W&B | **F1 0.877** · accuracy **0.978** |
-| [Pig weight estimation · BSc 9.2](https://github.com/marcmaldonadolorca/Pig_weight_estimation) | YOLOv5 / U-Net + Open3D point clouds + CNN regression | **MAE 3.6 kg** · IoU **0.98** · ⭐10 |
+| [Pig weight estimation · BSc 9.2](https://github.com/marcmaldonadolorca/Pig_weight_estimation) | YOLOv5 / U-Net + Open3D point clouds + CNN regression | **MAE 3.6 kg** · IoU **0.98** |
 | [Fine-grained vehicle classifier](https://github.com/marcmaldonadolorca/vehicle-classifier-pytorch) | ResNet18, transfer learning, per-class error analysis | **87%** top-3 · 40 classes |
 | [Deep-learning coursework ×8](https://github.com/marcmaldonadolorca/msc-deep-learning-coursework) | MLP → transformers: vision, time series, NLP, generative | **8** end-to-end projects |
 | [Quant strategy · RNVV](https://www.darwinexzero.com/darwin/RNVV/performance) | Lookahead-free backtest, live 24/7 signal service | **Public**, 3rd-party-audited track record |
@@ -48,16 +48,22 @@ Most data profiles show notebooks. **I show systems running:** while you read th
 
 </div>
 
-## 📊 GitHub in numbers
+## 🏅 Kaggle competitions — ranked against thousands of teams
 
-<div align="center">
+Featured competitions, scored on the private leaderboard by a third party.
+Verifiable at [kaggle.com/marcmaldonado](https://www.kaggle.com/marcmaldonado/competitions).
 
-<img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=marcmaldonadolorca&show_icons=true&hide_border=true&title_color=f5b544&icon_color=f5b544&text_color=c9c0b0&bg_color=181410" />
-<img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcmaldonadolorca&layout=compact&hide_border=true&langs_count=8&title_color=f5b544&text_color=c9c0b0&bg_color=181410" />
+| Competition | Teams | Result | Repo |
+|---|---|---|---|
+| ROGII Wellbore Geology | 6,125 | **1,075 — top 17.6%** (+2,299 places in the private shakeup) | [repo](https://github.com/marcmaldonadolorca/rogii-wellbore-geology-prediction) |
+| Pokémon TCG AI Battle (Simulation) | 6,807 | **1,328 — top 20%** | [repo](https://github.com/marcmaldonadolorca/pokemon-tcg-battle-agent) |
+| Go-Explore Red Teaming (LLM agents) | 4,186 | 3,985 — no medal, and the write-up explains why | [repo](https://github.com/marcmaldonadolorca/llm-agent-redteam-goexplore) |
 
-<img alt="Contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=marcmaldonadolorca&bg_color=181410&color=f5b544&line=f5b544&point=efe9de&area=true&hide_border=true" />
-
-</div>
+In ROGII my own solution beat the shared public-artifacts pipeline where it counts: that
+pipeline degraded **+3.00** RMSE from public to private and ended up below every model of
+mine; my simplest one degraded **+0.09**. In the red-teaming challenge I reproduced the
+top public technique and scored **zero** on the private leaderboard — the public board was
+a mirage, and that lesson is written up in the repo rather than buried.
 
 ## 📜 Certifications
 
