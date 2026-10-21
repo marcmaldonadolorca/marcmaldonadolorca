@@ -4,6 +4,8 @@
 
 **From raw data to models in production — and the 24/7 infrastructure that keeps them alive.**
 
+🌐 **[maldonadolorcamarc.dev](https://maldonadolorcamarc.dev)**
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-181410?style=for-the-badge&logo=linkedin&logoColor=f5b544)](https://www.linkedin.com/in/marc-maldonado-lorca/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-181410?style=for-the-badge&logo=kaggle&logoColor=f5b544)](https://www.kaggle.com/marcmaldonado)
 [![GCP Certified](https://img.shields.io/badge/GCP%20Professional%20Data%20Engineer-181410?style=for-the-badge&logo=googlecloud&logoColor=f5b544)](https://www.credly.com/badges/fdc0d8c0-a5aa-44b3-b02d-33de738dba31)
@@ -14,20 +16,20 @@
 
 4 years of banking analytics consulting (CaixaBank, VidaCaixa) at **SDG Group** · **MSc in Deep Learning** (UPM, thesis defended Sep 2026 — **10/10**) · Google Cloud Certified **Professional Data Engineer**.
 
-Most data profiles show notebooks. **I show systems running:** while you read this, a Raspberry Pi I run is capturing a live order book every 2 seconds — **100+ GB** so far — feeding the PyTorch models of my MSc thesis, trained on my own GPU.
+Most data profiles show notebooks. **I show systems running:** while you read this, a Raspberry Pi I run is capturing a live order book every 2 seconds — **372 GB** in the thesis cut (Aug 2026) — feeding the PyTorch models of my MSc thesis, trained on my own GPU.
 
 ## 🚀 Featured projects — real, verifiable metrics
 
 | Project | What it is | Result |
 |---|---|---|
-| [3D cell tracking · Kaggle BioHub](https://github.com/marcmaldonadolorca/biohub-cell-tracking) | My own sub-voxel coordinate refinement head, in PyTorch | 🥉 **Bronze — 371 of 4,020** · **+0.006** private LB |
-| [Market microstructure · MSc thesis](https://github.com/marcmaldonadolorca/polymarket-btc-microstructure) | 24/7 order-book capture + sequence models, time-stamped pre-registration | **100+ GB** · out-of-sample validated · **10/10** |
+| [3D cell tracking · Kaggle BioHub](https://github.com/marcmaldonadolorca/biohub-cell-tracking) | Reimplemented and retrained sub-voxel refinement head (idea: anvithpothula), PyTorch | 🥉 **Bronze — 371 of 4,020** · **+0.006** private LB |
+| [Market microstructure · MSc thesis](https://github.com/marcmaldonadolorca/polymarket-btc-microstructure) | 24/7 order-book capture + sequence models, time-stamped pre-registration | **372 GB** · out-of-sample validated · **10/10** |
 | [ECG arrhythmia · MLOps](https://github.com/marcmaldonadolorca/ecg-heartbeat-mlops) | 1D CNN, notebook → dockerized API + CI + W&B | **F1 0.877** · accuracy **0.978** |
 | [Pig weight estimation · BSc 9.2](https://github.com/marcmaldonadolorca/Pig_weight_estimation) | YOLOv5 / U-Net + Open3D point clouds + CNN regression | **MAE 3.6 kg** · IoU **0.98** |
 | [Deep-learning coursework ×8](https://github.com/marcmaldonadolorca/msc-deep-learning-coursework) | MLP → transformers: vision, time series, NLP, generative | **8** end-to-end projects |
-| [Quant strategy · RNVV](https://www.darwinexzero.com/darwin/RNVV/performance) | Lookahead-free backtest, live 24/7 signal service | **Public**, 3rd-party-audited track record |
+| [Quant strategy · RNVV](https://www.darwinexzero.com/darwin/RNVV/performance) | Lookahead-free backtest, live 24/7 signal service | Public track record verified by Darwinex Zero (**virtual capital**) |
 
-> Plus a production **homelab** (Raspberry Pi + GPU tower): VPN, DNS, reverse proxy, monitoring, encrypted backups verified by restoring them, and local LLM + RAG — **13** services in production, **0** ports open to the internet.
+> Plus a production **homelab** (Raspberry Pi 24/7 + GPU tower on demand): VPN, DNS, reverse proxy, encrypted borg backups (sample restore tested), and local LLM + RAG — **19** monitors in Uptime Kuma, **0** ports open to the internet.
 
 ## 🛠️ Tech stack
 
@@ -61,8 +63,9 @@ Verifiable at [kaggle.com/marcmaldonado](https://www.kaggle.com/marcmaldonado/co
 | Pokémon TCG AI Battle (Simulation) | 6,807 | **1,328 — top 20%** | [repo](https://github.com/marcmaldonadolorca/pokemon-tcg-battle-agent) |
 | Go-Explore Red Teaming (LLM agents) | 4,186 | 3,985 — no medal, and the write-up explains why | [repo](https://github.com/marcmaldonadolorca/llm-agent-redteam-goexplore) |
 
-In BioHub the medal came from a component I built myself: a tiny network that refines each
-cell's position inside the voxel. Without it, 0.914 on the private leaderboard and no medal;
+In BioHub the medal came from a sub-voxel refinement head I reimplemented and retrained on
+more videos (the idea is anvithpothula's): a tiny network that refines each cell's position
+inside the voxel. Without it, 0.914 on the private leaderboard and no medal;
 with it, 0.920 and bronze. The head and its training code are public, as a
 [dataset](https://www.kaggle.com/datasets/marcmaldonado/biohub-coordref-head-public) and a
 [notebook](https://www.kaggle.com/code/marcmaldonado/biohub-sub-voxel-head-0-921-private).
@@ -77,7 +80,7 @@ a mirage, and that lesson is written up in the repo rather than buried.
 
 ## 📜 Certifications
 
-**49 credentials, 48 of them with a verification URL.** The ones worth naming:
+**49 credentials, 47 with a public verification URL.** The ones worth naming:
 
 - **Google Cloud — Professional Data Engineer** (2025) · [verify on Credly](https://www.credly.com/badges/fdc0d8c0-a5aa-44b3-b02d-33de738dba31)
 - **IELTS Academic — Overall 7.5 (C1)** (2024)
@@ -91,6 +94,6 @@ a mirage, and that lesson is written up in the repo rather than buried.
 
 *Honest evaluation first: out-of-sample, realistic costs, and metrics I don't dress up.*
 
-📫 Open to **Data Engineer · Machine Learning Engineer · AI Engineer** roles — Spain &amp; remote (EU/UK)
+📫 Open to **Data Engineer · Machine Learning Engineer · AI Engineer** roles — Spain &amp; remote (EU · UK · CH)
 
 </div>
