@@ -1,10 +1,10 @@
 <div align="center">
 
-# Marc Maldonado — Data &amp; ML Engineer
+# Marc Maldonado — Machine Learning Engineer · Deep Learning &amp; AI
 
-**From raw data to models in production — and the 24/7 infrastructure that keeps them alive.**
+**Deep learning from raw data to production, evaluated out of sample — and the 24/7 infrastructure that keeps it running.**
 
-🌐 **[maldonadolorcamarc.dev](https://maldonadolorcamarc.dev)**
+**[maldonadolorcamarc.dev](https://maldonadolorcamarc.dev)**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-181410?style=for-the-badge&logo=linkedin&logoColor=f5b544)](https://www.linkedin.com/in/marc-maldonado-lorca/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-181410?style=for-the-badge&logo=kaggle&logoColor=f5b544)](https://www.kaggle.com/marcmaldonado)
@@ -18,20 +18,22 @@
 
 Most data profiles show notebooks. **I show systems running:** while you read this, a Raspberry Pi I run is capturing a live order book every 2 seconds — **372 GB** in the thesis cut (Aug 2026) — feeding the PyTorch models of my MSc thesis, trained on my own GPU.
 
-## 🚀 Featured projects — real, verifiable metrics
+**Languages:** Spanish &amp; Catalan (native) · English C1 (IELTS 7.5)
+
+## Featured projects — real, verifiable metrics
 
 | Project | What it is | Result |
 |---|---|---|
-| [3D cell tracking · Kaggle BioHub](https://github.com/marcmaldonadolorca/biohub-cell-tracking) | Reimplemented and retrained sub-voxel refinement head (idea: anvithpothula), PyTorch | 🥉 **Bronze — 371 of 4,020** · **+0.006** private LB |
+| [3D cell tracking · Kaggle BioHub](https://github.com/marcmaldonadolorca/biohub-cell-tracking) | Reimplemented and retrained sub-voxel refinement head (idea: anvithpothula), PyTorch | **Bronze — 371 of 4,020** · **+0.006** private LB |
 | [Market microstructure · MSc thesis](https://github.com/marcmaldonadolorca/polymarket-btc-microstructure) | 24/7 order-book capture + sequence models, time-stamped pre-registration | **372 GB** · out-of-sample validated · **10/10** |
-| [ECG arrhythmia · MLOps](https://github.com/marcmaldonadolorca/ecg-heartbeat-mlops) | 1D CNN, notebook → dockerized API + CI + W&B | **F1 0.877** · accuracy **0.978** |
+| [Wellbore geology · Kaggle ROGII](https://github.com/marcmaldonadolorca/rogii-wellbore-geology-prediction) | My own solution: stratigraphic position (TVT) modelled as a geological surface plus a per-well offset | **Top 17.6%** — 1,075 of 6,125 · +2,299 places in the shakeup |
+| [ECG arrhythmia · MLOps](https://github.com/marcmaldonadolorca/ecg-heartbeat-mlops) | 1D CNN, notebook → dockerized API + CI + W&B | **F1 macro 0.877** (logistic regression: 0.642) · accuracy **0.978** |
 | [Pig weight estimation · BSc 9.2](https://github.com/marcmaldonadolorca/Pig_weight_estimation) | YOLOv5 / U-Net + Open3D point clouds + CNN regression | **MAE 3.6 kg** · IoU **0.98** |
-| [Deep-learning coursework ×8](https://github.com/marcmaldonadolorca/msc-deep-learning-coursework) | MLP → transformers: vision, time series, NLP, generative | **8** end-to-end projects |
 | [Quant strategy · RNVV](https://www.darwinexzero.com/darwin/RNVV/performance) | Lookahead-free backtest, live 24/7 signal service | Public track record verified by Darwinex Zero (**virtual capital**) |
 
 > Plus a production **homelab** (Raspberry Pi 24/7 + GPU tower on demand): VPN, DNS, reverse proxy, encrypted borg backups (sample restore tested), and local LLM + RAG — **19** monitors in Uptime Kuma, **0** ports open to the internet.
 
-## 🛠️ Tech stack
+## Tech stack
 
 <div align="center">
 
@@ -51,14 +53,14 @@ Most data profiles show notebooks. **I show systems running:** while you read th
 
 </div>
 
-## 🏅 Kaggle competitions — ranked against thousands of teams
+## Kaggle competitions — ranked against thousands of teams
 
 Featured competitions, scored on the private leaderboard by a third party.
 Verifiable at [kaggle.com/marcmaldonado](https://www.kaggle.com/marcmaldonado/competitions).
 
 | Competition | Teams | Result | Repo |
 |---|---|---|---|
-| **BioHub Cell Tracking** (Research) | 4,020 | 🥉 **371 — bronze medal** (medal cut-off: 401) | [repo](https://github.com/marcmaldonadolorca/biohub-cell-tracking) |
+| **BioHub Cell Tracking** (Research) | 4,020 | **371 — bronze medal** (medal cut-off: 401) | [repo](https://github.com/marcmaldonadolorca/biohub-cell-tracking) |
 | ROGII Wellbore Geology | 6,125 | **1,075 — top 17.6%** (+2,299 places in the private shakeup) | [repo](https://github.com/marcmaldonadolorca/rogii-wellbore-geology-prediction) |
 | Pokémon TCG AI Battle (Simulation) | 6,807 | **1,328 — top 20%** | [repo](https://github.com/marcmaldonadolorca/pokemon-tcg-battle-agent) |
 | Go-Explore Red Teaming (LLM agents) | 4,186 | 3,985 — no medal, and the write-up explains why | [repo](https://github.com/marcmaldonadolorca/llm-agent-redteam-goexplore) |
@@ -78,7 +80,7 @@ mine; my simplest one degraded **+0.09**. In the red-teaming challenge I reprodu
 top public technique and scored **zero** on the private leaderboard — the public board was
 a mirage, and that lesson is written up in the repo rather than buried.
 
-## 📜 Certifications
+## Certifications
 
 **49 credentials, 47 with a public verification URL.** The ones worth naming:
 
@@ -94,6 +96,6 @@ a mirage, and that lesson is written up in the repo rather than buried.
 
 *Honest evaluation first: out-of-sample, realistic costs, and metrics I don't dress up.*
 
-📫 Open to **Data Engineer · Machine Learning Engineer · AI Engineer** roles — Spain &amp; remote (EU · UK · CH)
+Open to **Machine Learning Engineer · AI Engineer · Data Engineer** roles — Spain &amp; remote (EU · UK · CH)
 
 </div>
