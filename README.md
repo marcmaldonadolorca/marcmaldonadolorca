@@ -61,6 +61,7 @@ Verifiable at [kaggle.com/marcmaldonado](https://www.kaggle.com/marcmaldonado/co
 | Competition | Teams | Result | Repo |
 |---|---|---|---|
 | **BioHub Cell Tracking** (Research) | 4,020 | **371 — bronze medal** (medal cut-off: 401) | [repo](https://github.com/marcmaldonadolorca/biohub-cell-tracking) |
+| Kaggriculture (Simulation) | 10,148 | **1,127 — top 11.1%** (no medal; bronze cut-off: 1,014) | [repo](https://github.com/marcmaldonadolorca/kaggriculture) |
 | ROGII Wellbore Geology | 6,125 | **1,075 — top 17.6%** (+2,299 places in the private shakeup) | [repo](https://github.com/marcmaldonadolorca/rogii-wellbore-geology-prediction) |
 | Pokémon TCG AI Battle (Simulation) | 6,807 | **1,328 — top 20%** | [repo](https://github.com/marcmaldonadolorca/pokemon-tcg-battle-agent) |
 | Go-Explore Red Teaming (LLM agents) | 4,186 | 3,985 — no medal, and the write-up explains why | [repo](https://github.com/marcmaldonadolorca/llm-agent-redteam-goexplore) |
