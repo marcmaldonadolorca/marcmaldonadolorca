@@ -87,7 +87,7 @@ a mirage, and that lesson is written up in the repo rather than buried.
 
 - **Google Cloud — Professional Data Engineer** (2025) · [verify on Credly](https://www.credly.com/badges/fdc0d8c0-a5aa-44b3-b02d-33de738dba31)
 - **IELTS Academic — Overall 7.5 (C1)** (2024)
-- **Anthropic Academy — 21 certificates** (Claude Code, API, MCP, agents)
+- **Anthropic Academy — 21 certificates** (Claude Code, API, MCP, agents) · [put to work in my Claude Code skills library](https://github.com/marcmaldonadolorca/claude-code-skills)
 - **HackerRank — 9 assessed certifications** (Software Engineer role, SQL Advanced, Problem Solving…)
 - **Kaggle Learn — 15 certified courses** · **IBM Cognitive Class** (deep learning on GPUs) · **Forage — Deloitte Australia** (data analytics)
 
